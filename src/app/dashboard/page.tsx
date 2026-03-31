@@ -14,14 +14,14 @@ export default async function DashboardOverview() {
 
       {sites.length === 0 ? (
         <div className="glass-panel text-center py-24 rounded-2xl flex flex-col justify-center items-center gap-4">
-          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500/20 flex flex-col items-center justify-center text-purple-400">
+          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 flex flex-col items-center justify-center text-purple-400">
             <Bot size={32} />
           </div>
           <h2 className="text-xl font-semibold text-white">No businesses onboarded yet</h2>
           <p className="text-slate-400 max-w-sm mb-4">
             Start by creating a chatbot config for your first client to generate their embeddable widget.
           </p>
-          <Link href="/dashboard/new" className="bg-purple-600 hover:bg-purple-500 text-white px-6 py-3 rounded-xl font-medium transition-colors shadow-lg">
+          <Link href="/dashboard/new" className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-white px-6 py-3 rounded-xl font-medium transition-colors shadow-[0_0_20px_rgba(139,92,246,0.5)]">
             Create First Chatbot
           </Link>
         </div>
@@ -36,7 +36,7 @@ export default async function DashboardOverview() {
                     <h3 className="text-lg font-bold text-white">{bot.business_profile.name}</h3>
                     <p className="text-sm text-slate-400">{bot.business_profile.domain}</p>
                   </div>
-                  <button className="text-slate-500 hover:text-white transition-colors">
+                  <button title="Settings" className="text-slate-500 hover:text-white transition-colors">
                     <Settings size={20} />
                   </button>
                 </div>

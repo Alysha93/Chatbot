@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex items-center gap-6 mb-24">
         <Link 
           href="/dashboard"
-          className="flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-semibold py-4 px-8 rounded-full shadow-[0_0_30px_rgba(168,85,247,0.4)] transition-all animate-float"
+          className="flex items-center gap-3 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-white font-semibold py-4 px-8 rounded-full shadow-[0_0_40px_rgba(139,92,246,0.6)] transition-all animate-float"
         >
           Go to Dashboard <ArrowRight size={20} />
         </Link>
