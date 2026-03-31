@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 
 export const metadata: Metadata = {
-  title: 'Antigravity Chatbot SaaS',
+  title: 'LyshaChatbot SaaS',
   description: 'Multi-tenant RAG chatbot platform powered by Pinecone and OpenRouter.',
 };
 
@@ -29,9 +29,9 @@ export default function RootLayout({
         <nav className="glass sticky top-0 z-50 w-full px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded bg-gradient-to-br from-purple-500 flex items-center justify-center font-bold text-lg">
-              A
+              L
             </div>
-            <span className="font-outfit font-bold text-xl tracking-tight text-white">Antigravity Chat</span>
+            <span className="font-outfit font-bold text-xl tracking-tight text-white">LyshaChatbot</span>
           </div>
           <div className="flex items-center gap-6 text-sm font-medium text-slate-300">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>

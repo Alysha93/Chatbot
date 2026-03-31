@@ -19,10 +19,10 @@ export default async function DashboardOverview() {
           </div>
           <h2 className="text-xl font-semibold text-white">No businesses onboarded yet</h2>
           <p className="text-slate-400 max-w-sm mb-4">
-            Start by creating a chatbot config for your first client to generate their embeddable widget.
+            Start by creating a LyshaChatbot config for your first client to generate their embeddable widget.
           </p>
           <Link href="/dashboard/new" className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-white px-6 py-3 rounded-xl font-medium transition-colors shadow-[0_0_20px_rgba(139,92,246,0.5)]">
-            Create First Chatbot
+            Create First LyshaChatbot
           </Link>
         </div>
       ) : (

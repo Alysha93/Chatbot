@@ -11,7 +11,7 @@ export default function Home() {
         <span className="text-gradient">Gen-AI Powerhouse</span>
       </h1>
       <p className="max-w-2xl text-lg md:text-xl text-slate-300 mb-12">
-        A drop-in, premium RAG chatbot powered by Pinecone and OpenRouter. 
+        A drop-in, premium RAG LyshaChatbot powered by Pinecone and OpenRouter. 
         Easily onboard clients, inject their knowledge base, and give their users instant, accurate answers.
       </p>
 

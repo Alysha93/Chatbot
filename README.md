@@ -1,6 +1,6 @@
-# Chatbot SaaS Platform
+# LyshaChatbot SaaS Platform
 
-A multi-tenant, SaaS-ready platform for providing businesses with RAG-powered website chatbots. This solution allows a business to inject business-specific knowledge via Pinecone vector embeddings and uses OpenRouter (e.g. GPT-4o-mini) to serve an intelligent floating chat widget to their site visitors.
+A multi-tenant, SaaS-ready platform for providing businesses with RAG-powered LyshaChatbots. This solution allows a business to inject business-specific knowledge via Pinecone vector embeddings and uses OpenRouter (e.g. GPT-4o-mini) to serve an intelligent floating chat widget to their site visitors.
 
 Built with Next.js, TailwindCSS, Pinecone, and OpenRouter.
 
