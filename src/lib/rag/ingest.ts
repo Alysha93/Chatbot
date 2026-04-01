@@ -24,9 +24,6 @@ export async function ingestWebsite(siteId: string, chunks: any[]) {
   }
 
   if (vectors.length > 0) {
-    await index.upsert({
-      namespace: siteId,
-      vectors,
-    });
+    await index.namespace(siteId).upsert({ records: vectors });
   }
 }
