@@ -1,5 +1,6 @@
 # LyshaChatbot SaaS Platform
 
+![Chatbot Demonstration Video](./public/chatbot_demo.webp)
 ![Landing Page](./public/landing.png)
 ![Dashboard Overview](./public/dashboard.png)
 ![New Tenant Form](./public/dashboard-new.png)
